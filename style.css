@@ -1,0 +1,54 @@
+
+       
+       
+        h3.frnd{
+            background-color: chartreuse;
+            width: 60%;
+        }
+        h3:hover{
+            background-color: red;
+        }
+      
+        h2{
+            text-align: center;
+        }
+       
+        .frnd{
+            background-color: brown;
+            width: 50%;
+            margin: 30px 10px 10px 10px;
+            border: 3px dotted black;
+            
+        }
+       
+        .blog{
+            /* background-color: black; */
+            width: 500px;
+            height: 200px;
+            border: 5px double  green;
+            border-radius: 20px;
+            margin: 20px 30px 50px 10px ;
+            /* padding: 5px 50px 20px 20px; */
+            padding: 20px 200px;
+        }
+        .nb{
+            background-color: chocolate;
+            border: 5px solid cadetblue;
+            margin-left: 20px;
+            margin-top: 50px;
+            /* padding: 40px; */
+            padding-left: 20px;
+        }
+
+        .tour{
+            border: 3px solid purple;
+            border-radius: 10px;
+            /* margin: 20px 5px; */
+            padding-left: 4px;
+            margin: 1%;
+            width: 30%;
+            height: 100%;
+            /* text-align: justify; */
+            display: inline-block;
+        }
+
