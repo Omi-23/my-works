@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>h1os Learning</title>
+    <style>
+      @keyframes mk{
+        from{ left: 0px; }
+        to{ left: 1250px; }
+      }
+
+      #sky{
+        height: 200px;
+        background-color: #79C7F7;
+      }
+      #grass{
+        height: 150px;
+        background-color: #28713E;
+      }
+      #road{
+        height:250px;
+        background-color: #4A4A4A;
+      }
+      #line{
+        height: 0px;
+        border: 3px white dashed;
+        border-radius: 0.1px;
+        position: relative;
+        bottom: 120px;
+        background-color: 4A4A4A;
+      }
+      #mario{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 130px;
+        animation-name: mk;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+
+      }
+      
+    </style>
 </head>
+
 <body>
-    <h1>My First Website</h1>
-    <p>need to get job abroad</p>
-    <p>started learning from programming hero </p>
-    <p>hello i have made some changes......</p>
+  <div id="sky"></div>
+  <div id="grass"></div>
+  <div id="road"></div>
+  <div id="line"></div>
+  <div id="mario"><img height="70px" src="img/mario.png" alt=""></div>
 </body>
 </html>
